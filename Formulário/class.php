@@ -38,7 +38,7 @@
             return $this->data;
         }
 
-        public function setTelefone($data){
+        public function setData($data){
             $this->data = $data;
         }
 
