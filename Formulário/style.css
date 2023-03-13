@@ -1,60 +1,51 @@
-
-#nav {
+nav {
     background-color: #007BFF;
-    padding-left: 10px;
 }
 
 #text {
-    font-size: 27px;
+    font-size: 23px;
     padding-top: 7px;
+    padding-left: 10px;
+    color: rgb(247, 243, 243);
 }
 #text4 {
     font-size: 18px;
     padding-left: 15px;
     padding-top: 10px;
+    color: white;
 }
 #text2 {
     font-size: 25px;
     font-weight: bold;
     text-align: start;
-    padding-left: 30px;
+   
 }
 #text3 {
     font-size: 18px;
     text-align: start;
-    padding-left: 30px;
+   
 }
 #text5{
     font-size: 18px;
     text-align: start;
-    padding-left: 30px;
-}
-#form{
-    font-size: 1.5em;
-    border-radius: 5px;
-    display: table;
-    float: left;
-    margin-left: 30px;
-    padding-right: 200px;
+    padding-bottom: 10px;
+  
 }
 
-#form2{
-    font-size: 1.5em;
-    border-radius: 5px;
-    display: table;
-    margin-left: 30px;
-    padding-right: 20px;
+body {
+    background-color: rgb(215, 215, 215)
 }
-#form3{
-    font-size: 1.5em;
-    border-radius: 5.5px;
-    margin-left: 50px;
-    padding-right: 20px;
-    margin-top: 280px;
-    display: table;
-    background-color: #007BFF;
-    color: white;
-    width: 130px;
-    height: 60px;
-    text-align: center;
+.container {
+    background-color: white;
+    padding: 0%;
+}
+
+.formulario{
+    margin: 2%;
+    padding-bottom: 1%;
+}
+
+.botao{
+    width: 100px;
+    height: 40px;
 }

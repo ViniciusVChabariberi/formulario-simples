@@ -1,7 +1,6 @@
 <?php
-    //Classe
+
     class Principal{
-        //Atributos
         private $nome;
         private $telefone;
         private $origem;
@@ -18,10 +17,11 @@
             $this->nome = $nome;
         }
 
+        //Metodo get
         public function getTelefone(){
-            return $this->nome;
+            return $this->telefone;
         }
-
+        //Metodo set
         public function setTelefone($telefone){
             $this->telefone = $telefone;
         }
